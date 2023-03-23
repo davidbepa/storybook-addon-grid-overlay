@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "Storybook addon that enhances the visual layout of Storybook stories by providing a grid overlay",
   "keywords": [
-    "storybook-addons", "grid", "design", "layout", "columns", "storybook-addons"
+    "storybook-addons",
+    "grid",
+    "design",
+    "layout",
+    "columns",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -101,7 +106,14 @@
   "storybook": {
     "displayName": "Grid Overlay",
     "supportedFrameworks": [
-      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
+      "react",
+      "vue",
+      "angular",
+      "web-components",
+      "ember",
+      "html",
+      "svelte",
+      "preact"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
