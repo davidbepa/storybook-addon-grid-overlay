@@ -44,7 +44,8 @@ function displayGridOverlay({
   columns = 12,
   ...props
 }: DisplayGridOverlayState) {
-  const rootElement = document.getElementById('storybook-root');
+  console.log('entra');
+  const rootElement = document.getElementById('storybook-root').parentElement;
 
   let styleElement = global.document.getElementById(`addon-grid-overlay`);
   let overlayElement =
