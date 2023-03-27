@@ -52,7 +52,6 @@
     "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet\"",
     "prerelease": "zx scripts/prepublish-checks.mjs",
     "release": "yarn build && auto shipit",
-    "eject-ts": "zx scripts/eject-typescript.mjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
