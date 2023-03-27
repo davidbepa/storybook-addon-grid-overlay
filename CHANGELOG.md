@@ -1,3 +1,16 @@
+# v0.0.6 (Mon Mar 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/davidbepa/storybook-addon-grid-overlay ([@davidbepa](https://github.com/davidbepa))
+- Fix: The grid is getting lost when using the render option in the story and activating other addons ([@davidbepa](https://github.com/davidbepa))
+
+#### Authors: 1
+
+- David Bergmann ([@davidbepa](https://github.com/davidbepa))
+
+---
+
 # v0.0.5 (Fri Mar 24 2023)
 
 #### ⚠️ Pushed to `main`
