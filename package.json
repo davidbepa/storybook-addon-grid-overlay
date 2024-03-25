@@ -45,7 +45,7 @@
     "build:watch": "yarn build --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet\"",
-    "prerelease": "zx scripts/prepublish-checks.mjs",
+    "prerelease": "zx scripts/prepublish-checks.js",
     "release": "yarn build && auto shipit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
