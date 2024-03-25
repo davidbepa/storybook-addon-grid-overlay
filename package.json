@@ -86,9 +86,6 @@
     ],
     "previewEntries": [
       "src/preview.ts"
-    ],
-    "nodeEntries": [
-      "src/preset.ts"
     ]
   },
   "storybook": {
