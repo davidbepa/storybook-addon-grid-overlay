@@ -1,3 +1,22 @@
+# v0.0.8 (Mon Mar 25 2024)
+
+#### 🐛 Bug Fix
+
+- chore: update dependencies [#2](https://github.com/davidbepa/storybook-addon-grid-overlay/pull/2) ([@offbeat-dev](https://github.com/offbeat-dev))
+
+#### ⚠️ Pushed to `main`
+
+- ƒix: remove preset.js from package.json ([@offbeat-dev](https://github.com/offbeat-dev))
+- ƒix: rename prepublish-checks.js ([@offbeat-dev](https://github.com/offbeat-dev))
+- feat: update to storybook 8 ([@offbeat-dev](https://github.com/offbeat-dev))
+- chore: update workflow node version ([@offbeat-dev](https://github.com/offbeat-dev))
+
+#### Authors: 1
+
+- [@offbeat-dev](https://github.com/offbeat-dev)
+
+---
+
 # v0.0.7 (Mon Mar 27 2023)
 
 #### ⚠️ Pushed to `main`
