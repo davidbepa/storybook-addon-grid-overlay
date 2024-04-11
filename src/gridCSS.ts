@@ -10,7 +10,7 @@ type GridCSSProps = {
 export default function gridCSS(props: GridCSSProps) {
   return `
     .sb-grid-overlay {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
