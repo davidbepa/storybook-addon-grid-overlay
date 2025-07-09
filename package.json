@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-grid-overlay",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Storybook addon that enhances the visual layout of Storybook stories by providing a grid overlay",
   "keywords": [
     "storybook-addons",
@@ -46,17 +46,16 @@
     "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet\"",
     "prerelease": "zx scripts/prepublish-checks.js",
     "release": "yarn build && auto shipit",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6106",
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.0.4",
-    "@storybook/addon-interactions": "^8.0.4",
-    "@storybook/addon-links": "^8.0.4",
-    "@storybook/react": "^8.0.4",
-    "@storybook/react-vite": "^8.0.4",
+    "@storybook/addon-docs": "^9.0.16",
+    "@storybook/addon-links": "^9.0.16",
+    "@storybook/react-vite": "^9.0.16",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^20.11.30",
+    "@types/react": "^18.0.0",
     "@vitejs/plugin-react": "^4.2.1",
     "auto": "^11.1.2",
     "boxen": "^7.1.1",
@@ -68,7 +67,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "rimraf": "^5.0.5",
-    "storybook": "^8.0.4",
+    "storybook": "^9.0.16",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3",
     "vite": "^5.2.6",
@@ -104,5 +103,9 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
+  },
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c",
+  "dependencies": {
+    "@storybook/icons": "^1.4.0"
   }
 }

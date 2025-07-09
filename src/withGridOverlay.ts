@@ -3,8 +3,8 @@ import type {
   Renderer,
   PartialStoryFn as StoryFunction,
   StoryContext
-} from '@storybook/types';
-import { useEffect, useGlobals, useParameter } from '@storybook/preview-api';
+} from 'storybook/internal/types';
+import { useEffect, useGlobals, useParameter } from 'storybook/preview-api';
 import { PARAM_KEY } from './constants';
 import { getColumnCount } from './helpers';
 import gridCSS from './gridCSS';

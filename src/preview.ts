@@ -1,10 +1,10 @@
-import type { Renderer, ProjectAnnotations } from '@storybook/types';
+import type { Renderer, ProjectAnnotations } from 'storybook/internal/types';
 import { PARAM_KEY } from './constants';
 import { withGridOverlay } from './withGridOverlay';
 
 const preview: ProjectAnnotations<Renderer> = {
   decorators: [withGridOverlay],
-  globals: {
+  initialGlobals: {
     [PARAM_KEY]: false
   }
 };
