@@ -3,8 +3,8 @@
 import boxen from 'boxen';
 import dedent from 'dedent';
 import { readFile } from 'fs/promises';
-import { globalPackages as globalManagerPackages } from '@storybook/manager/globals';
-import { globalPackages as globalPreviewPackages } from '@storybook/preview/globals';
+import { globalPackages as globalManagerPackages } from 'storybook/internal/manager/globals';
+import { globalPackages as globalPreviewPackages } from 'storybook/internal/preview/globals';
 
 const packageJson = await readFile('./package.json', 'utf8').then(JSON.parse);
 
@@ -68,7 +68,6 @@ peerDependencies.forEach(dependency => {
       boxen(
         dedent`
           ${chalk.red.bold('Unnecessary peer dependency')}
-  
           ${chalk.red(dedent`You have a peer dependency on ${chalk.bold(dependency)} which is most likely unnecessary
           as that is provided by Storybook directly.
           Check the "bundling" section in README.md for more information.

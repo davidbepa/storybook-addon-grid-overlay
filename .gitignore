@@ -4,3 +4,7 @@ storybook-static/
 build-storybook.log
 .DS_Store
 .env
+
+# Yarn 4
+install-state.gz
+.yarnrc.yml

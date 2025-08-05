@@ -1,6 +1,7 @@
 import React, { memo, useCallback, useEffect } from 'react';
-import { useGlobals, useStorybookApi } from '@storybook/manager-api';
-import { Icons, IconButton } from '@storybook/components';
+import { useGlobals, useStorybookApi } from 'storybook/manager-api';
+import { IconButton } from 'storybook/internal/components';
+import { GridIcon } from '@storybook/icons';
 import { ADDON_ID, PARAM_KEY, TOOL_ID } from './constants';
 
 export const Tool = memo(function GridOverlaySelector() {
@@ -32,7 +33,7 @@ export const Tool = memo(function GridOverlaySelector() {
       title="Apply a grid to the preview"
       onClick={toggleMyTool}
     >
-      <Icons icon="grid" />
+      <GridIcon />
     </IconButton>
   );
 });
