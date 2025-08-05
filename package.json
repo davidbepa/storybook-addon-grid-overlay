@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-grid-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Storybook addon that enhances the visual layout of Storybook stories by providing a grid overlay",
   "keywords": [
     "storybook-addons",
