@@ -39,13 +39,13 @@
   ],
   "scripts": {
     "clean": "rimraf ./dist",
-    "prebuild": "yarn clean",
+    "prebuild": "npm run clean",
     "build": "tsup",
-    "build:watch": "yarn build --watch",
+    "build:watch": "npm run build --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet\"",
+    "start": "concurrently \"npm run build:watch\" \"npm run storybook --quiet\"",
     "prerelease": "zx scripts/prepublish-checks.js",
-    "release": "yarn build && auto shipit",
+    "release": "npm run build && auto shipit",
     "storybook": "storybook dev -p 6106",
     "build-storybook": "storybook build"
   },
