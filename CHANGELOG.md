@@ -1,3 +1,22 @@
+# v0.0.10 (Tue Aug 05 2025)
+
+#### 🐛 Bug Fix
+
+- feat: upgrade to storybook v9 [#5](https://github.com/davidbepa/storybook-addon-grid-overlay/pull/5) ([@fdendorfer](https://github.com/fdendorfer))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/davidbepa/storybook-addon-grid-overlay ([@davidbepa](https://github.com/davidbepa))
+- Use npm instead of yarn ([@davidbepa](https://github.com/davidbepa))
+- Update release.yml ([@davidbepa](https://github.com/davidbepa))
+
+#### Authors: 2
+
+- David Bergmann ([@davidbepa](https://github.com/davidbepa))
+- Florian Dendorfer ([@fdendorfer](https://github.com/fdendorfer))
+
+---
+
 # v0.0.9 (Wed May 15 2024)
 
 
